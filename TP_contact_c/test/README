@@ -1,0 +1,22 @@
+
+
+# Liste simplement chaînée :
+  gcc main_test_list_simple.c list_simple.c -o list_simple
+  ./list_simple 
+
+# Liste doublement chaînée :
+  gcc main_test_list.c list.c -o list
+
+# Table de hachage :
+  gcc main_test_hashtab.c hashtab.c list.c -o hashtab
+  ./hashtab
+
+# FIFO (file) :
+  gcc main_test_file.c file.c list.c -o fifo
+  ./fifo
+  
+# LIFO (pile) :
+ gcc main_test_stack.c stack.c list_simple.c -o stack
+ ./stack
+
+
